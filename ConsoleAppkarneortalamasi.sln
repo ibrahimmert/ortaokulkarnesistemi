@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppkarneortalamasi", "ConsoleAppkarneortalamasi\ConsoleAppkarneortalamasi.csproj", "{FBB6B9A3-AB09-49AC-BCC1-EE68ABC8449D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppkarneortalamasi", "ConsoleAppkarneortalamasi.csproj", "{FBB6B9A3-AB09-49AC-BCC1-EE68ABC8449D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FB564A49-B730-437B-BB7D-B8737AC40A13}
+		SolutionGuid = {E30BBF14-B78D-4635-AA19-99DEBFF27C3F}
 	EndGlobalSection
 EndGlobal

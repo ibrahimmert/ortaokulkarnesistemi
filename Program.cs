@@ -11,6 +11,9 @@ namespace ConsoleAppkarneortalamasi
         static void Main(string[] args)
         {
 
+
+            #region değişkenler
+
             int mat1,mat2,matSozlu1,matSozlu2,matSozlu3;          
 
             int fen1,fen2,fenSozlu1, fenSozlu2 ,fenSozlu3;
@@ -43,10 +46,10 @@ namespace ConsoleAppkarneortalamasi
 
             double karneOrt;
 
-           
+            double matDers, fenDers, sosDers, ingDers, turkDers, dinDers, tekTasDers, gorselDers, muzikDers, bedenDers, seçmeli1Ders, seçmeli2Ders, seçmeli3Ders;
+       
 
-
-
+            #endregion  değişkenler
 
             Console.WriteLine("   LÜTFEN NOTLARINIZI 100 ÜZERİNDEN DEĞERLENDİREREK YAZINIZ !   " );
 
@@ -74,7 +77,7 @@ namespace ConsoleAppkarneortalamasi
 
             #endregion
 
-
+            #region fen dersi
             Console.Write("fen bilimleri 1. yazılı notunu gir: ");
             fen1 = Convert.ToInt32(Console.ReadLine());
 
@@ -95,8 +98,9 @@ namespace ConsoleAppkarneortalamasi
 
             Console.WriteLine("fen bilimleri dersi ortalaman : " + fenOrt);
 
+            #endregion
 
-
+            #region turkce
             Console.Write("türkçe 1. yazılı notunu gir: ");
             turk1 = Convert.ToInt32(Console.ReadLine());
 
@@ -117,8 +121,9 @@ namespace ConsoleAppkarneortalamasi
 
             Console.WriteLine("türkçe dersi ortalaman : " + turkOrt);
 
+            #endregion
 
-
+            #region ingilizce
             Console.Write("ingilizce 1. yazılı notunu gir: ");
             ing1 = Convert.ToInt32(Console.ReadLine());
 
@@ -138,11 +143,11 @@ namespace ConsoleAppkarneortalamasi
             ingOrt = (ing1 + ing2 + ingSozluOrt) / 3;
 
             Console.WriteLine("ingilizce dersi ortalaman : " + ingOrt);
-
+            #endregion
 
 
             Console.WriteLine("   AYNI SEÇMELİYİ BİR DAHA YAZMAYINIZ !   ");
-
+            #region seçmeli 1
             Console.Write("seçmeli 1. yazılı notunu gir: ");
             seçmeli11 = Convert.ToInt32(Console.ReadLine());
 
@@ -159,9 +164,9 @@ namespace ConsoleAppkarneortalamasi
             seçmeli1Ort = (seçmeli11 + seçmeli12 + seçmeli1SozluOrt) / 3;
 
             Console.WriteLine(" 1.seçmeli dersi ortalaman : " + seçmeli1Ort);
+            #endregion
 
-     
-
+            #region seçmeli 2
             Console.Write("seçmeli 1. yazılı notunu gir: ");
             seçmeli21 = Convert.ToInt32(Console.ReadLine());
 
@@ -179,7 +184,9 @@ namespace ConsoleAppkarneortalamasi
 
             Console.WriteLine(" 2.seçmeli dersi ortalaman : " + seçmeli2Ort);
 
+            #endregion
 
+            #region seçmeli 3
             Console.Write("seçmeli 1. yazılı notunu gir: ");
             seçmeli31 = Convert.ToInt32(Console.ReadLine());
 
@@ -196,9 +203,9 @@ namespace ConsoleAppkarneortalamasi
             seçmeli3Ort = (seçmeli31 + seçmeli32 + seçmeli3SozluOrt) / 3;
 
             Console.WriteLine(" 3.seçmeli dersi ortalaman : " + seçmeli3Ort);
+            #endregion seçmeli
 
-
-
+            #region muzik
 
             Console.Write("muzik 1. yazılı notunu gir: ");
             muzik1 = Convert.ToInt32(Console.ReadLine());
@@ -217,9 +224,9 @@ namespace ConsoleAppkarneortalamasi
 
             Console.WriteLine("muzik dersi ortalaman : " + muzikOrt);
 
+            #endregion
 
-
-
+            #region beden
 
             Console.Write("beden 1. yazılı notunu gir: ");
             beden1 = Convert.ToInt32(Console.ReadLine());
@@ -238,8 +245,9 @@ namespace ConsoleAppkarneortalamasi
 
             Console.WriteLine("beden dersi ortalaman : " + bedenOrt);
 
+            #endregion
 
-
+            #region din
             Console.Write("din 1. yazılı notunu gir: ");
             din1 = Convert.ToInt32(Console.ReadLine());
 
@@ -257,9 +265,9 @@ namespace ConsoleAppkarneortalamasi
 
             Console.WriteLine("beden dersi ortalaman : " + dinOrt);
 
+            #endregion
 
-
-
+            #region gorsel
             Console.Write("gorsel 1. yazılı notunu gir: ");
             gorsel1 = Convert.ToInt32(Console.ReadLine());
 
@@ -273,9 +281,10 @@ namespace ConsoleAppkarneortalamasi
             gorselOrt = (gorsel1 + gorselSozlu2 + gorselSozluOrt) / 3;
 
             Console.WriteLine("gorsel dersi ortalaman : " + gorselOrt);
+            #endregion
 
 
-
+            #region tektas
             Console.Write("teknoloji tasarım  1. yazılı notunu gir: ");
             tekTas1 = Convert.ToInt32(Console.ReadLine());
 
@@ -292,11 +301,11 @@ namespace ConsoleAppkarneortalamasi
             tekTasOrt = (tekTas1 + tekTas2 + tekTasSozluOrt) / 3;
 
             Console.WriteLine("teknoloji tasarım dersi ortalaman : " + tekTasOrt);
-
+            #endregion
 
             Console.WriteLine("   SOSYAL VE İNKILAP AYNI DERSTİR !   ");
 
-
+            #region sosyal
             Console.Write("sosyal 1. yazılı notunu gir: ");
             sos1 = Convert.ToInt32(Console.ReadLine());
 
@@ -314,14 +323,29 @@ namespace ConsoleAppkarneortalamasi
 
             Console.WriteLine("sosyal dersi ortalaman : " + sosOrt);
 
+            #endregion
+
+            #region ortalama
+            matDers = matOrt * 5 ;
+            fenDers = fenOrt * 4;
+            sosDers = sosOrt * 2;
+            ingDers = ingOrt * 4;
+            tekTasDers = tekTasOrt * 2;
+            muzikDers = muzikOrt * 1;
+            dinDers = dinOrt * 2;
+            turkDers = turkOrt * 5;
+            seçmeli1Ders = seçmeli1Ort * 2;
+            seçmeli2Ders = seçmeli2Ort * 2;
+            seçmeli3Ders = seçmeli3Ort * 2;
+            bedenDers = bedenOrt * 2;
+            gorselDers = gorselOrt * 1;
 
 
-            karneOrt = matOrt * 5;
-
+            karneOrt = (gorselDers + bedenDers + seçmeli1Ders + seçmeli2Ders + seçmeli3Ders + turkDers + dinDers + muzikDers + tekTasDers + ingDers + matDers + fenDers + sosDers) / 34;
 
             Console.WriteLine("karne notun : " + karneOrt);
 
-
+            #endregion
             Console.ReadLine();
 
 
