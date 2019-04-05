@@ -1,0 +1,7 @@
+C:\Users\Egirdir Bilisim\source\repos\ConsoleAppkarneortalamasi\ConsoleAppkarneortalamasi\bin\Debug\ConsoleAppkarneortalamasi.exe.config
+C:\Users\Egirdir Bilisim\source\repos\ConsoleAppkarneortalamasi\ConsoleAppkarneortalamasi\bin\Debug\ConsoleAppkarneortalamasi.exe
+C:\Users\Egirdir Bilisim\source\repos\ConsoleAppkarneortalamasi\ConsoleAppkarneortalamasi\bin\Debug\ConsoleAppkarneortalamasi.pdb
+C:\Users\Egirdir Bilisim\source\repos\ConsoleAppkarneortalamasi\ConsoleAppkarneortalamasi\obj\Debug\ConsoleAppkarneortalamasi.csprojAssemblyReference.cache
+C:\Users\Egirdir Bilisim\source\repos\ConsoleAppkarneortalamasi\ConsoleAppkarneortalamasi\obj\Debug\ConsoleAppkarneortalamasi.csproj.CoreCompileInputs.cache
+C:\Users\Egirdir Bilisim\source\repos\ConsoleAppkarneortalamasi\ConsoleAppkarneortalamasi\obj\Debug\ConsoleAppkarneortalamasi.exe
+C:\Users\Egirdir Bilisim\source\repos\ConsoleAppkarneortalamasi\ConsoleAppkarneortalamasi\obj\Debug\ConsoleAppkarneortalamasi.pdb
