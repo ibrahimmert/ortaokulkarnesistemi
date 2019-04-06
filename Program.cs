@@ -348,6 +348,9 @@ namespace ConsoleAppkarneortalamasi
             #endregion
 
             Console.ReadLine();
+            
+            
+            //test change
 
 
 
