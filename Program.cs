@@ -68,6 +68,7 @@ namespace ConsoleAppkarneortalamasi
             matSozlu2 = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("matematik 3. sözlü notunu gir: ");
+
             matSozlu3 = Convert.ToInt32(Console.ReadLine());
 
             matSozluOrt = (matSozlu1 + matSozlu2 + matSozlu3 ) / 3;
@@ -343,10 +344,28 @@ namespace ConsoleAppkarneortalamasi
 
             karneOrt = (gorselDers + bedenDers + seçmeli1Ders + seçmeli2Ders + seçmeli3Ders + turkDers + dinDers + muzikDers + tekTasDers + ingDers + matDers + fenDers + sosDers) / 34;
 
-            Console.WriteLine("karne notun : " + karneOrt);
+            Console.WriteLine("KARNE NOTUN :  " + karneOrt);
 
             #endregion
+            #region takdir tesekkur
 
+            if (karneOrt >= 85  && matOrt >= 50 && fenOrt >= 50 && turkOrt >= 50 &&  ingOrt >= 50 && seçmeli1Ort >= 50 && seçmeli2Ort >= 50 && seçmeli3Ort >= 50 && sosOrt >= 50 && muzikOrt >= 50 && bedenOrt >= 50 && dinOrt >= 50 && gorselOrt >= 50 && tekTasOrt >= 50 )
+            {
+
+                Console.Write("     TAKDİR BELGESİ ALDINIZ     ");
+
+            }
+            else if (karneOrt >= 70 && matOrt >= 50 && fenOrt >= 50 && turkOrt >= 50 && ingOrt >= 50 && seçmeli1Ort >= 50 && seçmeli2Ort >= 50 && seçmeli3Ort >= 50 && sosOrt >= 50 && muzikOrt >= 50 && bedenOrt >= 50 && dinOrt >= 50 && gorselOrt >= 50 && tekTasOrt >= 50)
+            {
+                Console.Write("     TEŞEKKÜR BELGESİ ALDINIZ     ");
+            }
+            else if(karneOrt < 70  || matOrt < 50 || fenOrt < 50 || turkOrt < 50 || ingOrt < 50 || seçmeli1Ort < 50 || seçmeli2Ort < 50 || seçmeli3Ort >= 50 || sosOrt < 50 || muzikOrt < 50 || bedenOrt < 50 || dinOrt < 50 || gorselOrt < 50 || tekTasOrt < 50 )
+	        {
+                Console.Write("     HİÇBİR BELGE ALAMADINIZ     ");
+            }
+
+
+            #endregion
             Console.ReadLine();
 
 
