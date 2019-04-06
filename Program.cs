@@ -346,6 +346,7 @@ namespace ConsoleAppkarneortalamasi
             Console.WriteLine("karne notun : " + karneOrt);
 
             #endregion
+
             Console.ReadLine();
 
 
